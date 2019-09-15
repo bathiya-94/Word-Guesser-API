@@ -1,0 +1,6 @@
+projectKey=com.wordguesser:api
+serverUrl=http://localhost:9000
+serverVersion=6.4.0.25310
+dashboardUrl=http://localhost:9000/dashboard/index/com.wordguesser:api
+ceTaskId=AW0wpCopnPdhdoxMcIqL
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW0wpCopnPdhdoxMcIqL

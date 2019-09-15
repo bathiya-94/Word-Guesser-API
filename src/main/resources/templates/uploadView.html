@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http//www/thymleaf.org" lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Title</title>
+    </head>
+
+    <body>
+        <h1> Word Guesser by Bathiya</h1>
+        <br>
+        <h2>Upload Your Words Text File Here</h2>
+        <p> Your text file should contain words with no of letters 4,5,6,7 and more than 8 </p>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple/><br/><br/>
+            <input type="submit" value="Upload Files"/>
+
+        </form>
+    </body>
+</html>
